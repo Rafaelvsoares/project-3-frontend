@@ -1,0 +1,48 @@
+{
+  "name": "vite-ts-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.3",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@react-three/cannon": "^6.5.2",
+    "@react-three/drei": "^9.52.0",
+    "@react-three/fiber": "^8.10.0",
+    "@types/mui-image": "^1.0.1",
+    "axios": "^1.2.2",
+    "bulma": "^0.9.4",
+    "mui-image": "^1.0.7",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-pay-icons": "^3.0.1",
+    "react-router-dom": "^6.8.1",
+    "react-router-hash-link": "^2.4.3",
+    "styled-components": "^5.3.6",
+    "three": "^0.148.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-color": "^3.0.6",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-router-hash-link": "^2.4.5",
+    "@vitejs/plugin-react": "^2.1.0",
+    "sass": "^1.56.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.5"
+  }
+}
